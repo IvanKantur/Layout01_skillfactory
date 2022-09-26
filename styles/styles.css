@@ -1,8 +1,9 @@
 html, body {
     max-width: 1300px;
-    width: auto;
+    width: 1300px;
     margin: 0;
     display: block;
+    height: auto;
     font-family: 'Nanito Sans', Arial, Helvetica, sans-serif;
 }
 
@@ -12,6 +13,10 @@ html, body {
 
 main {
     display: block;
+    position: absolute;
+    width: 1300px;
+    top: 83px;
+    left: 0;
 }
 /* body {
     display: block;
@@ -20,7 +25,7 @@ main {
 } */
 
 .header {
-    position: absolute;
+    position: relative;
     height: 83px;
     background: #131313;
     font-family: "Nanito Sans", "Arial";
@@ -35,10 +40,6 @@ main {
     display: inline-block;
     justify-content: space-between;
     height: 10px;
-    width: 581.4299926757812px;
-    left: 367.21307373046875px;
-    top: 37px;
-
 }
 
 a {
@@ -46,7 +47,8 @@ a {
     text-decoration: none;
     color: #FFFFFF;
     margin-left: 20px;
-    vertical-align: middle;
+    padding-top: 12px;
+    /* vertical-align: middle; */
 }
 
 .header_content {
@@ -60,7 +62,8 @@ a {
     display: flex;
     text-align: center;
     justify-content: space-between;
-    vertical-align: middle;
+    /* vertical-align: middle; */
+    /* margin: 0, auto; */
 }
 
 
@@ -111,20 +114,18 @@ a {
     top: 13px;
     bottom: 14px;
     text-align: center;
-
-
+    padding-top: 12px;
 }
 
-.main_block1 {
-    background-image: url(https://s3-alpha-sig.figma.com/img/b08d/1b80/1322e77c0316c416f2e0373bae5eafc5?Expires=1665360000&Signature=LaYMwv-qJRrgkID68SKWY24uXsCW9ioBZfLGVY0lL9Ylm5phjHr8rqBJLWMf07pQ8Oc0LVBH889etlE4c2mqD2H7k689aIz6Hg9GQdbLBlbaCG8gpkJ3m8e-dY6GNV~I4EuPgIZEl9QxMxMaGWKjI4O9fYannKuyGJWxo8u6ZVPpwT~vbrEoRFzns7lqwQcfGeaZtkRhzXHdyj1vDHPdAOwbV3edtaVFV0L3K9G04hNxDg1eYzRTIMoLpMKgTAAfUhYn~nEqwqc6sP6ovtpnQE5puvCrMLt6TBQCGXfwUVYUvcbsFY8669OgRGvRdOtsy-BXJW7~K1J1NHafnC4MWQ__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA);
-    background-size: cover;
-    /* background: rgba(0, 0, 0, 0.7); */
-    /* opacity: rgba(0, 0, 0, 0.7); */
+section.main_block1 {
+    background: rgba(0, 0, 0, 0.7);
+    background-image:linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)), url(https://s3-alpha-sig.figma.com/img/b08d/1b80/1322e77c0316c416f2e0373bae5eafc5?Expires=1665360000&Signature=LaYMwv-qJRrgkID68SKWY24uXsCW9ioBZfLGVY0lL9Ylm5phjHr8rqBJLWMf07pQ8Oc0LVBH889etlE4c2mqD2H7k689aIz6Hg9GQdbLBlbaCG8gpkJ3m8e-dY6GNV~I4EuPgIZEl9QxMxMaGWKjI4O9fYannKuyGJWxo8u6ZVPpwT~vbrEoRFzns7lqwQcfGeaZtkRhzXHdyj1vDHPdAOwbV3edtaVFV0L3K9G04hNxDg1eYzRTIMoLpMKgTAAfUhYn~nEqwqc6sP6ovtpnQE5puvCrMLt6TBQCGXfwUVYUvcbsFY8669OgRGvRdOtsy-BXJW7~K1J1NHafnC4MWQ__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA);
+        background-size: cover;
     max-width: 1300px;
     height: 707px;
     position: relative;
     left: 0;
-    top: 83px;
+    top: 0;
     height: 707px;
     justify-content: center;
     }
