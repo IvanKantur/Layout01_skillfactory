@@ -1,4 +1,5 @@
 html, body {
+    position: relative;
     max-width: 1300px;
     width: 1300px;
     margin: 0;
@@ -89,6 +90,7 @@ a {
     position: absolute;
     top: 448px;
     left: 134px;
+    margin-top: 41px;
 }
 
 .button_03 {
@@ -103,6 +105,7 @@ a {
     position: absolute;
     top: 448px;
     left: 361px;
+    margin-top: 41px;
 }
 
 .header_text {
@@ -120,7 +123,7 @@ a {
 section.main_block1 {
     background: rgba(0, 0, 0, 0.7);
     background-image:linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)), url(https://s3-alpha-sig.figma.com/img/b08d/1b80/1322e77c0316c416f2e0373bae5eafc5?Expires=1665360000&Signature=LaYMwv-qJRrgkID68SKWY24uXsCW9ioBZfLGVY0lL9Ylm5phjHr8rqBJLWMf07pQ8Oc0LVBH889etlE4c2mqD2H7k689aIz6Hg9GQdbLBlbaCG8gpkJ3m8e-dY6GNV~I4EuPgIZEl9QxMxMaGWKjI4O9fYannKuyGJWxo8u6ZVPpwT~vbrEoRFzns7lqwQcfGeaZtkRhzXHdyj1vDHPdAOwbV3edtaVFV0L3K9G04hNxDg1eYzRTIMoLpMKgTAAfUhYn~nEqwqc6sP6ovtpnQE5puvCrMLt6TBQCGXfwUVYUvcbsFY8669OgRGvRdOtsy-BXJW7~K1J1NHafnC4MWQ__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA);
-        background-size: cover;
+    background-size: cover;
     max-width: 1300px;
     height: 707px;
     position: relative;
@@ -139,7 +142,9 @@ section.main_block1 {
     height: 707px;
 }
 
-.title {
+.title1 {
+    width: 676px;
+    height: 105px;
     position: absolute;
     top: 192px;
     left: 134px;
@@ -149,6 +154,7 @@ section.main_block1 {
     font-size: 40px;
     text-transform: uppercase;    
     color: rgba(255, 255, 255, 1) ;
+    line-height: 53.13px;
 }
 
 .RoD {
@@ -167,7 +173,112 @@ section.main_block1 {
     font-weight: 400;
     font-size: 22px;
     line-height: 36px;
-    margin: 0;
+    margin-top: 19px;
+    color: #FFFFFF;
+}
 
-color: #FFFFFF;
+section.main_block2 {
+    display: block;
+    position: absolute;
+    top: 790px;
+    left: 0;
+    width: 1300px;
+    height: 2540px;
+    background-color: rgba(19, 19, 19, 1);
+    margin-top: -83px;
+    border: #131313;
+}
+
+.conteiner2 {
+    position: relative;
+    margin-top: 107px;
+    width: 1171px;
+    height: 553px;
+    margin-left: auto;
+    margin-right: auto;
+    border: #FFFFFF solid;
+}
+
+.completed_projects {
+    display: block;
+    height: 552px;
+    position: absolute;
+    top: 107px;
+    
+}
+
+.title2 {
+    position: absolute;
+    font-family: 'Yeseva One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 27px;
+    line-height: 37px;
+    letter-spacing: -0.07em;
+    text-transform: uppercase;
+    color: #E3B873;
+}
+
+.left_side {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 442px;
+    height: 390px;
+}
+
+.completed_projects {
+    position: relative;
+    top: 0px;
+}
+
+.title2 {
+    margin-top: 69px;
+    display: block;
+    width: 253px;
+    height: 66px;
+}
+
+.p2 {
+    position: relative;
+    display: inline-block;
+    width: 442px;
+    height: 86px;
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 26.73px;
+    color: #FFFFFF;
+    margin-top: 169px;
+}
+
+.completed_projects h2 {
+    position:relative;
+    font-family: 'Yeseva One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    text-transform: uppercase;
+    color: #E3B873;
+
+}
+
+.p3 {
+    position: absolute;
+    margin-top: 50px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 21.28px;
+}
+
+.conteiner2 #G218 {
+    position: absolute;
+    left: 1px;
+    bottom: 6px;
 }
