@@ -192,10 +192,10 @@ section.main_block2 {
 .conteiner2 {
     position: relative;
     margin-top: 107px;
-    width: 1171px;
+    max-width: 1032px;
     height: 553px;
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 134px;
+    margin-right: 134px;
     border: #FFFFFF solid;
 }
 
