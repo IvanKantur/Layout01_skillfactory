@@ -196,7 +196,7 @@ section.main_block2 {
     height: 553px;
     margin-left: 134px;
     margin-right: 134px;
-    border: #FFFFFF solid;
+    /* border: #FFFFFF solid; */
 }
 
 .completed_projects {
@@ -210,33 +210,32 @@ section.main_block2 {
 .title2 {
     position: absolute;
     font-family: 'Yeseva One';
-    font-style: normal;
+    font-style: 'Regular';
     font-weight: 400;
     font-size: 27px;
     line-height: 37px;
     letter-spacing: -0.07em;
     text-transform: uppercase;
     color: #E3B873;
+    margin-top: 69px;
+    display: block;
+    width: 253px;
+    height: 66px;
 }
 
 .left_side {
+    display: flex;
     position: relative;
     top: 0;
     left: 0;
     width: 442px;
     height: 390px;
+    /* margin-right: 50px; */
 }
 
 .completed_projects {
     position: relative;
     top: 0px;
-}
-
-.title2 {
-    margin-top: 69px;
-    display: block;
-    width: 253px;
-    height: 66px;
 }
 
 .p2 {
@@ -256,7 +255,8 @@ section.main_block2 {
 .completed_projects h2 {
     position:relative;
     font-family: 'Yeseva One';
-    font-style: normal;
+    font-style: 'Regular';
+    font-style: 'normal';
     font-weight: 400;
     font-size: 18px;
     line-height: 25px;
@@ -277,8 +277,103 @@ section.main_block2 {
     line-height: 21.28px;
 }
 
+.group-navi {
+    position: relative;
+    top: 283px;
+
+}
+
 .conteiner2 #G218 {
+    /* display: flex;
+    flex-direction: row; */
     position: absolute;
     left: 1px;
     bottom: 6px;
+}
+
+.right_side {
+    display: flex;
+    position: absolute;
+    top: 0;
+    left: 442px;
+    width: 540px;
+    height: auto;
+    flex-direction: row;
+    margin-left: 50px;
+}
+
+.objects_adresses {
+    /* display: block; */
+    position: relative;
+    height: 24px;
+    width: 540px;
+}
+
+.right_side ul li {
+    display: flex;
+    font-family: 'Yeseva One';
+    /* font-style: normal; */
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    line-height: 120%;
+    text-align: left;
+    vertical-align: top;
+    text-transform: uppercase;
+    color: rgba(251, 251, 251, 1);
+    /* margin-right: 60.5px; */
+    
+    color: #E3B873;
+}
+
+ul {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    top: 0;
+    left: 0;
+    list-style: none;
+    padding: 0;
+    justify-content: space-between;
+}
+
+.admiral-apartment {
+    position: absolute;
+    top: 69px;
+    left: 0px;
+    width: 540px;
+    height: 383px;
+    background-image: url(https://s3-alpha-sig.figma.com/img/84d2/4980/7f2a0f3b4ed9cd6671fa4e811b625992?Expires=1665360000&Signature=O-1tHbyRgAeZ9l1nUQ0hpyI3iRdh5ZUUluUtWM~06Btnk3WmVF5h9wpZcOXlxXb8HtHZ6y9VlFAZExjWIJ2pdiMHIRJkWvaQC~Goh5smDWQnx5vJs4gq42qIibn3jga7OSVt2nKpx6cdCRbOfake2xGSuKLxoEZp~QaieoOop1nFW5wP0MfzJbhplBDqASBhz7AZ3dc0zV5xlGDLvG0lmnpc-Ls0m-bNJOgYJXmMMAfVWOUuggXZplQD2ma3BbKbX-AHdMvUgjJNJAnpblnlfFFaphk16TCM-ILsxlgk5I4gDjzojL4ySeIPUB19O6X43UbP0GZIJbq6FuuxGF6dvA__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA);
+    background-size: cover;
+}
+
+
+.online-control h3 {
+    margin-top: 90px;
+    position:relative;
+    font-family: 'Yeseva One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.control-vector {
+    display: inline-block;
+    vertical-align: middle;
+    justify-content: center;    
+    text-align: center;
+}
+
+.control-vector img {
+    vertical-align: middle;
+    display: inline-block;
+    justify-content: center;
+}
+
+.group-navi img{
+    vertical-align:middle;
 }
