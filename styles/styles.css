@@ -457,6 +457,7 @@ ul {
 }
 
 .form1, .form2 {
+    padding-left: 1px;
     text-align:left; 
     height: 45px;
     width: 231px;
@@ -643,7 +644,7 @@ section.main_block3 {
     margin-left: 25%;
  }
 
- .leave-request .form1, .form2, .form3, .first-checkbox{
+ .leave-request #form1, #form2, #form3, .first-checkbox{
     color: rgba(255, 255, 255, 0.5);
     margin-top: 35px;
     position: relative;
@@ -659,4 +660,24 @@ section.main_block3 {
     position: relative;
     left: 224px;
     top: 65px;
+ }
+
+ .help-save {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    left: 803px;
+    top: 8.5px;
+ }
+
+ .p-help-save, .pig-logo {
+    display: block;
+    text-align: center;
+    font-family: 'Nunito Sans';
+    font-style: 'Regular';
+    font-size: 18px;
+    line-height: 25.78px;
+    line-height: 105%;
+    text-align: left;
+    color: #E3B873;
  }
