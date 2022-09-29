@@ -91,6 +91,7 @@ a {
     top: 448px;
     left: 134px;
     margin-top: 41px;
+    border-radius: 2px;
 }
 
 .button_03 {
@@ -106,6 +107,7 @@ a {
     top: 448px;
     left: 361px;
     margin-top: 41px;
+    border-radius: 2px;
 }
 
 .header_text {
@@ -444,6 +446,9 @@ ul {
     background: rgba(227, 184, 115, 1);
     width: 200px;
     height: 51px;
+    border-radius: 2px;
+    border-color: rgba(227, 184, 115, 1);
+    box-shadow: 0 15px 15px 0 rgba(227, 184, 115, 0.15);
 }
 
 .input-forms {
@@ -589,6 +594,9 @@ ul {
     vertical-align: Top;
     text-transform: uppercase;
     margin-top: 0;
+    border-radius: 2px;
+    box-shadow: 5px 5px 10px 0 rgba(227, 184, 115, 0.3);
+    border-color: rgba(227, 184, 115, 1);
 }
 
 .idb-1 {
