@@ -456,3 +456,121 @@ ul {
     left: 0;
     top: 130px;
 }
+
+.tor {
+    position: relative;
+    top: 205px;
+}
+
+.repairs {
+    position: absolute;
+    top: 1910px;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    height: 392px;
+    width: 1236px;
+    left: 45px;
+
+}
+
+.rep1 {
+    display: flex;
+    flex-direction: column;
+    height: 421px;
+    width: 392px;
+    border: #FFFFFF solid;
+    background-image: url('../images/image-1.svg');
+    background-repeat: no-repeat;
+}
+.rep2 {
+    display: flex;
+    flex-direction: column;
+    height: 421px;
+    width: 392px;
+    border: #FFFFFF solid;
+    background-image: url('../images/image-2.svg');
+    background-repeat: no-repeat;
+}
+.rep3 {
+    display: flex;
+    flex-direction: column;
+    height: 421px;
+    width: 392px;
+    border: #FFFFFF solid;
+    background-image: url('../images/image-3.svg');
+    background-repeat: no-repeat;
+}
+
+.img-description1 {
+    position: relative;
+    top: 294px;
+    left: 31px;
+    background-color: rgba(255, 255, 255, 1);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.03);
+    height: 286px;
+    width: 330px;
+    text-align: center;
+}
+.img-description1 {
+    position: relative;
+    top: 294px;
+    left: 31px;
+    background-color: rgba(255, 255, 255, 1);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.03);
+    height: 286px;
+    width: 330px;
+    text-align: center;
+}
+.img-description1 {
+    position: relative;
+    top: 294px;
+    left: 31px;
+    background-color: rgba(255, 255, 255, 1);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.03);
+    height: 286px;
+    width: 330px;
+    text-align: center;
+}
+
+.list {
+    size: 100%;
+}
+
+.idb-1, .idb-2, .idb-3  {
+    position: absolute;
+    /* left: 31px;
+    top: 554px; */
+    height: 54px;
+    width: 228px;
+    background-color: rgba(227, 184, 115, 1);
+    font-family: Yeseva One;
+    font-style: 'Regular';
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(255, 255, 255, 1);
+    Line-height: 24.95px;
+    Line-height: 120%;
+    text-align: center;
+    vertical-align: Top;
+    text-transform: uppercase;
+    margin-top: 0;
+}
+
+.idb-1 {
+    left: 31px;
+    top: 554px;
+}
+
+.idb-2 {
+    top: 554px;
+    left: 431px;
+}
+
+.idb-3 {    
+    left: 831px;
+    top: 554px;
+}
