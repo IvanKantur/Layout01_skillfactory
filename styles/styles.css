@@ -433,7 +433,7 @@ ul {
 .inputs {
     position: relative;
     top: 91.5px;
-    left: -50px;
+    left: 0;
     display: flex;
     flex-direction: row;
     height: 45px;
@@ -451,11 +451,42 @@ ul {
     flex-direction: row;
 }
 
-#chbox {
+.form1, .form2 {
+    text-align:left; 
+    height: 45px;
+    width: 231px;
+    margin-right: 10px;
+    justify-content: space-around;
+}
+
+.first-checkbox {
     position: relative;
-    left: 0;
+    left: 15px;
     top: 130px;
 }
+
+.label {
+    cursor: pointer;
+  }
+  .checkbox{
+    display: none;
+  }
+  .fake{
+    display: inline-flex;
+    width: 18px;
+    height: 18px;
+    background: #E3B873;
+    color: #fff;
+    justify-content: center;
+  }
+  .fake::before{
+    content:"\2714";
+    opacity: 0;
+    transition: .2s;
+  }
+  .checkbox:checked + .fake::before{
+    opacity: 1;
+  }
 
 .tor {
     position: relative;
@@ -573,4 +604,8 @@ ul {
 .idb-3 {    
     left: 831px;
     top: 554px;
+}
+
+.main_block3 {
+    height: 3979px;
 }
