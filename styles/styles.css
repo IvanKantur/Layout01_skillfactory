@@ -19,11 +19,6 @@ main {
     top: 83px;
     left: 0;
 }
-/* body {
-    display: block;
-    justify-content:center;
-    width: 1300px;
-} */
 
 .header {
     position: relative;
@@ -482,7 +477,7 @@ ul {
     width: 18px;
     height: 18px;
     background: #E3B873;
-    color: #fff;
+    color: #FFFFFF;
     justify-content: center;
   }
   .fake::before{
@@ -681,3 +676,90 @@ section.main_block3 {
     text-align: left;
     color: #E3B873;
  }
+
+ .wildest-fantasies {
+    position: relative;
+    top: 254px;
+    height: 864px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.9)), url('../images/image-5.jpg');
+    background-size: cover;
+}
+
+.title3 {
+    font-family: "Yeseva One";
+    font-style: 'Regular';
+    font-weight: 400;
+    font-size: 27px;
+    text-transform: uppercase;    
+    color: rgba(227, 184, 115, 1);
+    line-height: 37.42px;
+    line-height: 120%;
+    text-align: left;
+    position: relative;
+    top: 137px;
+    left: 99px;
+}
+
+.list-01{
+    display: block;
+    color: #FFFFFF;
+    position: relative;
+    text-align: left;
+    left: 99px;
+    top: 154px;
+    font-family: 'Nunito Sans';
+    font-style: 'Regular';
+    font-size: 20px;
+    line-height: 38.19px;
+    line-height: 140%;
+    text-align: left;
+}
+
+.list-01 > li {
+    margin-top: 25px;
+}
+
+.fantasies-img1 {
+    height: 557.8831787109375px;
+    width: 334px;
+    left: 588px;
+    top: 879.37744140625px;
+    border-radius: 0px;
+    object-fit: cover;
+    position:absolute;
+    left: 465px;
+    top: -41px;
+}
+.fantasies-img2 {
+    height: 349.3717041015625px;
+    width: 334px;
+    left: 588px;
+    top: 1476.364990234375px;
+    border-radius: 0px;
+    object-fit: cover;
+    position: absolute;
+    left: 465px;
+    top: 595px;
+}
+.fantasies-img3 {
+    height: 275px;
+    width: 334px;
+    left: 985px;
+    top: 808px;
+    border-radius: 0px;    
+    object-fit: cover;
+    position: absolute;
+    left: 865px;
+    top: -112.5px;
+}
+.fantasies-img4 {
+    height: 624.8848266601562px;
+    width: 334px;
+    left: 985px;
+    top: 1120px;
+    border-radius: 0px;
+    object-fit: cover;
+    position: absolute;
+    left: 865px;
+    top: 199.5px;
+}
