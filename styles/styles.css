@@ -679,7 +679,7 @@ section.main_block3 {
 
  .wildest-fantasies {
     position: relative;
-    top: 254px;
+    top: 150px;
     height: 864px;
     background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.9)), url('../images/image-5.jpg');
     background-size: cover;
@@ -739,7 +739,7 @@ section.main_block3 {
     object-fit: cover;
     position: absolute;
     left: 465px;
-    top: 595px;
+    top: 555px;
 }
 .fantasies-img3 {
     height: 275px;
@@ -762,4 +762,137 @@ section.main_block3 {
     position: absolute;
     left: 865px;
     top: 199.5px;
+}
+
+.our-clients{
+    position: relative;
+    top: 254px;
+    width: 1300px;
+    height: 642px;
+    /* background-color: #410202; */
+
+}
+.our-clients > h3 {
+/* Font style: Regular
+Font size: 20px
+Line height: 27.72px
+Line height: 120%
+Align: Center
+Vertical align: Top
+Fill: Solid
+#181818 */
+    font-family: "Yeseva One";
+    font-style: 'Regular';
+    font-size: 20px;
+    text-transform: uppercase;    
+    color: #181818;
+    line-height: 37.42px;
+    line-height: 120%;
+    text-align: center;
+}
+
+.clients-logo {
+    display: block;
+    text-align: center;
+}
+
+.our-clients > p{
+    font-family: "Nunito Sans";
+    font-style: 'Regular';
+    font-size: 18px;
+    line-height: 29.46px;
+    line-height: 120%;
+    text-align: center;
+    vertical-align: top;
+    color:#363636;
+}
+
+.reviews{
+    height: 455px;
+    width: 1236px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.reviews > .review {
+    position: relative;
+    width: 376px;
+    height: 428px;
+    display: flex;
+}
+
+.review > img {
+    position: relative;
+    top: 24px;
+    left: 20px;
+    width: 76px;
+    height: 76px;
+    border-radius: 50%;
+}
+
+.reviews  h4 {
+    position: relative;
+    top: 20px;
+    left: 43px;
+    height: 42px;
+    width: 178px;
+    font-family: "Yeseva One";
+    font-style: 'Regular';
+    font-size: 18px;
+    line-height: 22.87px;
+    Line-height: 110%;
+    text-align: left;
+    vertical-align: top;
+    color: #181818;
+}
+
+.review > p {
+    position: absolute;
+    top: 122px;
+    left: 20px;
+    display: block;
+    height: 239px;
+    width: 324px;
+    font-family: "Nunito Sans";
+    font-style: 'Regular';
+    font-size: 13px;
+    line-height: 23.4px;
+    line-height: 180%;
+    text-align: left;
+    line-height-step: 5px;
+    color:#959595;
+    
+}
+
+.area-and-timing {
+    position: absolute;
+    left: o;
+    top: 401px;
+    background-color: #E3B873;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 294px;
+    height: 54px;
+    text-transform: uppercase;
+}
+
+.area-and-timing p {
+    font-family: "Yeseva One";
+    font-style: 'Regular';
+    font-size: 17px;
+    line-height: 23.56px;
+    line-height: 120%;
+    text-align: Left;
+    vertical-align: top;
+    color: #FFFFFF;
+}
+
+.area-and-timing  img, p {
+    margin-left: auto;
+    margin-right: auto;
 }
