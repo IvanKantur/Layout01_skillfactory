@@ -677,6 +677,12 @@ section.main_block3 {
     color: #E3B873;
  }
 
+ .p-help-save {
+    position: absolute;
+    left: 117px;
+    top: 10px;
+ }
+
  .wildest-fantasies {
     position: relative;
     top: 150px;
