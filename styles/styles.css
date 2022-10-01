@@ -496,7 +496,7 @@ ul {
 
 .repairs {
     position: absolute;
-    top: 1910px;
+    top: 1980px;
     margin: 0;
     display: flex;
     flex-direction: row;
@@ -611,6 +611,7 @@ ul {
 }
 
 section.main_block3 {
+    margin-top: 80px;
     position: relative;
     top: 124px;
     height: 3979px;
@@ -894,7 +895,7 @@ Fill: Solid
     line-height: 23.56px;
     line-height: 120%;
     text-align: Left;
-    vertical-align: top;
+    vertical-align: middle;
     color: #FFFFFF;
 }
 
