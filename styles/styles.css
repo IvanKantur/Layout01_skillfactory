@@ -14,9 +14,8 @@ html, body {
 
 main {
     display: block;
-    position: absolute;
+    position: relative;
     width: 1300px;
-    top: 83px;
     left: 0;
 }
 
@@ -55,7 +54,6 @@ a {
     color: #FFFFFF;
     margin-left: 20px;
     padding-top: 12px;
-    /* vertical-align: middle; */
 }
 
 .header_content {
@@ -69,8 +67,7 @@ a {
     display: flex;
     text-align: center;
     justify-content: space-between;
-    /* vertical-align: middle; */
-    /* margin: 0, auto; */
+
 }
 
 
@@ -625,7 +622,7 @@ section.main_block3 {
     margin-top: 80px;
     position: relative;
     top: 124px;
-    height: 3979px;
+    height: 3900px;
 }
 
  .leave-request {
@@ -1004,7 +1001,7 @@ section.main_block3 {
 }
 .our-contacts-content {
     position: relative;
-    top: 300px;
+    top: 250px;
     width: 1240px;
     height: 600px;
 }
@@ -1030,5 +1027,23 @@ section.main_block3 {
     background-image: linear-gradient(rgba(196, 196, 196, 0.3), rgba(196, 196,196, 0.3)), url(../images/map.svg);
     background-size: cover;
     margin: auto;
-    margin-top: 50px;
+    margin-top: 60px;
+}
+
+.footer {
+    position: relative;
+    height: 130px;
+    background: #131313;
+    font-family: "Nanito Sans", "Arial";
+    font-size: 11px;
+    /* display: flex; */
+    width: 1300px;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.footer .header_content {
+    position: absolute;
+    top: 50%;
+    margin-top: -1.25em;
 }
