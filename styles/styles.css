@@ -20,6 +20,17 @@ main {
     left: 0;
 }
 
+h3 {
+    font-family: "Yeseva One";
+    font-style: 'Regular';
+    font-size: 20px;
+    text-transform: uppercase;    
+    color: #181818;
+    line-height: 37.42px;
+    line-height: 120%;
+    text-align: center;
+}
+
 .header {
     position: relative;
     height: 83px;
@@ -776,18 +787,9 @@ section.main_block3 {
     top: 254px;
     width: 1300px;
     height: 642px;
-    /* background-color: #410202; */
-
 }
+
 .our-clients > h3 {
-/* Font style: Regular
-Font size: 20px
-Line height: 27.72px
-Line height: 120%
-Align: Center
-Vertical align: Top
-Fill: Solid
-#181818 */
     font-family: "Yeseva One";
     font-style: 'Regular';
     font-size: 20px;
@@ -902,4 +904,131 @@ Fill: Solid
 .area-and-timing  img, p {
     margin-left: auto;
     margin-right: auto;
+}
+
+.questions {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    top: 330px;
+    z-index: 2;
+    height: 445px;
+    width: 883px;
+    background-color: rgba(24, 24, 24, 1);
+    display: flex;
+}
+
+.content {
+    height: 376px;
+    width: 720px;
+    margin: auto;
+    /* background-color: aqua; */
+}
+
+.content > h3 {
+    display: block;
+    font-family: "Yeseva One";
+    font-style: 'Regular';
+    font-size: 20px;
+    text-transform: uppercase;    
+    color:#FFFFFF;
+    line-height: 37.42px;
+    line-height: 120%;
+    text-align: center;
+    justify-content: center;
+    margin-top: 0;
+}
+
+.inner {
+    position: relative;
+    top: 46px;
+    height: 304px;
+    width: 520px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    color: rgba(255, 255, 255, 0.5);
+    /* background-color: #959595; */
+}
+
+.questions-forms  #form {
+    justify-content: space-between;
+    width: 260px;
+    height: 45px;
+}
+
+.form-question {
+    position: absolute;
+    top: 110px;
+    height: 45px;
+    width: 100%;
+}
+
+.form-question > input {
+    width: 99%;
+
+}
+
+#form > input {
+    width: 84%;
+
+}
+
+.questions-forms{
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+}
+
+.inner  #first-checkbox {
+    text-align: center;
+    position: relative;
+    left: 0;
+    top: 200px;
+    margin: 0;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.inner .btn {
+    margin-top: 12px;
+}
+
+.our-contacts {
+    position: relative;
+    top: 107.5px;
+    height: 954px;
+    width: 100%;
+    background: linear-gradient(rgba(24, 24, 24, 0.9),rgba(24, 24, 24, 0.9)), url(../images/back-contacts.jpg) ;
+    background-size: auto;
+}
+.our-contacts-content {
+    position: relative;
+    top: 300px;
+    width: 1240px;
+    height: 600px;
+}
+
+.our-contacts-content h3 {
+    position: relative;
+    color: rgba(227, 184, 115, 1);
+}
+
+.logos {
+    position: relative;
+    text-align: center;
+}
+
+.logos img {
+    width: 26px;
+    height: 26px;
+}
+
+.map {
+    width: 925px;
+    height: 456px;
+    background-image: linear-gradient(rgba(196, 196, 196, 0.3), rgba(196, 196,196, 0.3)), url(../images/map.svg);
+    background-size: cover;
+    margin: auto;
+    margin-top: 50px;
 }
