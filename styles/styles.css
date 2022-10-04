@@ -1,3 +1,147 @@
+@media  (min-width: 375px) and (max-width: 767px) {
+
+    html, body {
+        position: relative;
+        max-width: 768px;
+        width: 768px;
+        margin: 0;
+        display: block;
+        height: auto;
+        font-family: 'Nanito Sans', Arial, Helvetica, sans-serif;
+    }
+
+    .main {
+        margin-top: -70px;
+    }
+
+    .header {
+        position: relative;
+        height: 83px;
+        background: #131313;
+        font-family: "Nanito Sans", "Arial";
+        font-size: 11px;
+        display: flex;
+        width: 100%;
+        justify-content: center;
+    }
+
+    footer {
+        display: none;
+    }
+    
+    .header_content {
+        width: auto;
+        position: absolute;
+        top: 24px;
+        bottom: 14px;
+        left: 92px;
+        right: 90px;
+        height: 37px;
+        display: flex;
+        text-align: center;
+        justify-content: space-between;
+        color:#E3B873;
+    }
+    #ht-2 {
+        color: #FFFFFF;
+    } 
+
+    .nav, .button_01{
+        display: none;
+    }
+
+    section.main_block1 {
+        background-image:linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)), url(https://s3-alpha-sig.figma.com/img/b08d/1b80/1322e77c0316c416f2e0373bae5eafc5?Expires=1665360000&Signature=LaYMwv-qJRrgkID68SKWY24uXsCW9ioBZfLGVY0lL9Ylm5phjHr8rqBJLWMf07pQ8Oc0LVBH889etlE4c2mqD2H7k689aIz6Hg9GQdbLBlbaCG8gpkJ3m8e-dY6GNV~I4EuPgIZEl9QxMxMaGWKjI4O9fYannKuyGJWxo8u6ZVPpwT~vbrEoRFzns7lqwQcfGeaZtkRhzXHdyj1vDHPdAOwbV3edtaVFV0L3K9G04hNxDg1eYzRTIMoLpMKgTAAfUhYn~nEqwqc6sP6ovtpnQE5puvCrMLt6TBQCGXfwUVYUvcbsFY8669OgRGvRdOtsy-BXJW7~K1J1NHafnC4MWQ__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA);
+        background-size: cover;
+        width:100%;
+        height: 700px;
+        margin-top: 0;
+        position: absolute;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    /* .section.main_block1 p, h1 {
+        display: flex;
+    } */
+
+    .title1 {
+        width: 95%;
+        height: 60px;
+        position: relative;
+        top: 85px;
+        left: 18px;
+        font-family: "Yeseva One", Arial, Helvetica, sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 40px;
+        text-transform: uppercase;    
+        color: rgba(255, 255, 255, 1) ;
+        line-height: 53.13px;
+        text-align: left;
+    }
+
+    .paragraph1 { 
+        position: relative;
+        display: inline-block;
+        width: 80%;
+        top: 145px;
+        left: 18px;
+        margin: 0;
+        color: #FFFFFF;
+        /* top: 161px; */
+        Font-family: 'Yeseva One';
+        Font-style: 'Regular';
+        Font-size: 14px;
+        Line-height: 19px;
+        Line-height: 135%;
+        text-align: left;
+        vertical-align: top;
+    }
+    .RoD {
+        color: rgba(227, 184, 115, 1);
+    }
+
+    .button {
+        height: 51px;
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 2px;
+        color: #FFFFFF;
+        position: relative;
+        top: 287px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        align-content: center;
+        justify-content: center;
+        margin-top: 41px;
+        border-radius: 2px;
+        display: flex;
+        margin-top: 30px;
+    }
+
+    #btn_02 {
+        background: #E3B873;
+        /* top: 448px;
+        left: 134px; */
+    }
+
+    #btn_03 {
+        background-color: rgba(0, 0, 0, 0.7);
+        opacity: 0.7;
+    }
+
+   section.main_block2 {
+        display: none;
+    }
+   section.main_block {
+        display: none;
+    }
+
+  }
+
 @media (min-width: 768px) and (max-width: 1300px) {
 
         html, body {
