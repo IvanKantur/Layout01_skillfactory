@@ -3,7 +3,7 @@
     html, body {
         position: relative;
         max-width: 768px;
-        width: 768px;
+        min-width: 375px;
         margin: 0;
         display: block;
         height: auto;
@@ -22,7 +22,23 @@
         font-size: 11px;
         display: flex;
         width: 100%;
-        justify-content: center;
+        justify-content: space-between;
+    }
+
+    .header_text {
+        display: inline-block;
+        color: #E3B873;
+        width: auto;
+        height: 10px;
+        margin-left: 20px;
+        display: inline-block;
+        font-family: "Nanito Sans", "Arial";
+        Font-size: 11px;
+        height: 10px;
+        top: 13px;
+        bottom: 14px;
+        text-align: center;
+        padding-top: 12px;
     }
 
     footer {
@@ -31,15 +47,14 @@
     
     .header_content {
         width: auto;
-        position: absolute;
+        position: relative;
         top: 24px;
         bottom: 14px;
-        left: 92px;
-        right: 90px;
-        height: 37px;
+        width: 100%;
+        height: 10px;
         display: flex;
         text-align: center;
-        justify-content: space-between;
+        justify-content:space-around;
         color:#E3B873;
     }
     #ht-2 {
@@ -66,27 +81,29 @@
     } */
 
     .title1 {
-        width: 95%;
+        width: 100%;
         height: 60px;
         position: relative;
         top: 85px;
-        left: 18px;
+        /* left: 18px; */
         font-family: "Yeseva One", Arial, Helvetica, sans-serif;
         font-style: normal;
         font-weight: 400;
-        font-size: 40px;
+        font-size: 23px;
         text-transform: uppercase;    
         color: rgba(255, 255, 255, 1) ;
         line-height: 53.13px;
         text-align: left;
+        margin-left: 18px;
+        margin-right: 18px;
     }
 
     .paragraph1 { 
         position: relative;
         display: inline-block;
-        width: 80%;
-        top: 145px;
-        left: 18px;
+        width: 339px;
+        top: 130px;
+        left: 14px;
         margin: 0;
         color: #FFFFFF;
         /* top: 161px; */
@@ -133,12 +150,117 @@
         opacity: 0.7;
     }
 
+    .conteiner2 {
+        position: relative;
+        top: 700px;
+        background-color: #131313;
+        height: inherit;
+    }
+
+    .group-navi, .online-control, .repair-img, .description, .repairs {
+        display: none;
+    }
+
+
+
+    .completed_projects {
+        position: relative;
+        height: 66px;
+        top: 36px;
+    }
+
+    h1 {
+        Font-family: 'Yeseva One';
+        Font-style: 'Regular';
+        Font-size: 22px;
+        Line-height: 30.49px;
+        Line-height: 138.6%;
+        text-align: Center;
+        /* justify-content: center; */
+        letter-spacing: -7%;
+        color: rgba(227, 184, 115, 1);
+        text-transform: uppercase;
+        position: relative;
+        display: block;
+        width: 253px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 0;
+    }
+
+    p {
+        color: #FFFFFF;
+        Font-family: 'Nanito Sans';
+        Font-style: 'Regular';
+        Font-size: 11px;
+        Line-height: 17.43px;
+        Line-height: 158.48%;
+        text-align: Center ;
+        vertical-align: Top;
+        position: relative;
+        Top: 0px;
+    }
+
    section.main_block2 {
+    background-color: #131313;
+    height: 100%;
+    }
+
+
+   section.main_block3 {
         display: none;
     }
-   section.main_block {
+    .title2 {
+        height: 100%;
+    }
+
+    .right_side ul{
         display: none;
     }
+
+    .right_side {
+        width: 340px;
+        height: 241px;
+        background-image: url(../images/mobile-projects/mobile-background-projects.jpg);
+        margin-left: auto;
+        margin-right: auto;
+        position: relative;
+        top: 144px;
+    }
+
+    .values-of-repair {
+        position: relative;
+        width: 375px;
+        height: 145px;
+        top: 300px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    h2 {
+        position:absolute;
+        font-family: 'Yeseva One';
+        font-style: 'Regular';
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 19px;
+        text-transform: uppercase;
+        text-align: left;
+        color: #E3B873;
+        margin-left: 18px;
+        justify-content: center;
+    }
+
+    .values {
+        position: absolute;
+        margin-top: 31px;
+        margin-left: 18px;
+    }
+
+    
+
+
+
 
   }
 
@@ -385,7 +507,11 @@
             top: 0px;
         }
 
-        .p2 {
+        .values-of-repair {
+            position: relative;
+        }
+
+        .completed_projects > .p2 {
             position: relative;
             display: inline-block;
             width: 442px;
@@ -399,7 +525,7 @@
             margin-top: 169px;
         }
 
-        .completed_projects h2 {
+        h2 {
             position:relative;
             font-family: 'Yeseva One';
             font-style: 'Regular';
@@ -412,7 +538,7 @@
 
         }
 
-        .p3 {
+        .value {
             position: absolute;
             margin-top: 50px;
             text-transform: uppercase;
