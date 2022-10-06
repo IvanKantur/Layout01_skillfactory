@@ -198,7 +198,7 @@
 
    section.main_block2 {
     background-color: #131313;
-    height: 100%;
+    height: 1858px;
     }
 
 
@@ -387,15 +387,19 @@
         width: 100%;
     }
 
-    .inputs .btn {
-        background: rgba(227, 184, 115, 1);
-        width: auto;
-        height: 200px;
+    .btn {
+        position: relative;
+        top: 107px;
+        width: 340px;
+        height: 51px;
         border-radius: 2px;
         border-color: rgba(227, 184, 115, 1);
         box-shadow: 0 15px 15px 0 rgba(227, 184, 115, 0.15);
-        margin-left: 18px;
-        margin-right: 17px;
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 18px;
+        padding-bottom: 25px;
+        color: #FFFFFF;
     }
 
     .input-forms {
@@ -423,13 +427,18 @@
     }
 
                 .first-checkbox {
-                    background-color: aquamarine;
+                    /* background-color: aquamarine; */
                     position: relative;
                     width: 90%;
                     margin-right: auto;
                     margin-left: auto;
                     left: 0;
-                    top: 184px;
+                    top: 175px;
+                }
+
+                #text {
+                    color: #FFFFFF
+                    !important;
                 }
 
                 .label {
@@ -458,28 +467,41 @@
 
     .tor {
         position: relative;
-        top: 205px;
+        top: 275px;
+    }
+
+    .tor h3, .repairs h3 {
+        color: rgba(24, 24, 24, 1);
+    }
+
+    .tor img {
+        position: relative;
+        top: 45px;
     }
 
     .repairs {
-        position: absolute;
-        top: 1980px;
+        position: relative;
+        top: 730px;
         margin: 0;
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         height: 392px;
-        width: 1236px;
-        left: 45px;
+        width: 375px;
+        left: 0;
 
     }
 
     .rep {
         display: flex;
         flex-direction: column;
-        height: 421px;
-        width: 392px;
+        height: 365.15px;
+        width: 340px;
         border: #FFFFFF solid;
         background-repeat: no-repeat;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 220px;
+        
     }
 
     #rep1 {
@@ -494,21 +516,38 @@
 
     .img-description1 {
         position: relative;
-        top: 294px;
-        left: 31px;
+        top: 175px;
+        left: 0;
         background-color: rgba(255, 255, 255, 1);
         box-shadow: 0 0 20px rgba(0, 0, 0, 0.03);
-        height: 286px;
-        width: 330px;
+        height: 241px;
+        width: 270px;
         text-align: center;
     }
 
+    .repairs h3 {
+        position: absolute;
+        top: 18px;
+        left: 31px;
+        Font-family: 'Yeseva One';
+        Font-style: 'Regular';
+        Font-size: 15px;
+        Line-height: 20.79px;
+        Line-height: 138.6%;
+        text-align: Left;
+        vertical-align: Top;
+    }
+
     .list {
+        position: absolute;
+        top: 52px;
+        left: 31px;
         size: 100%;
     }
 
     .idb-1, .idb-2, .idb-3  {
-        position: absolute;
+        position: relative;
+        top: 170px;
         height: 54px;
         width: 228px;
         background-color: rgba(227, 184, 115, 1);
@@ -531,7 +570,8 @@
         border-color: rgba(227, 184, 115, 1);
     }
 
-    .idb-1 {
+    /* .idb-1 {
+        position: relative;
         left: 31px;
         top: 554px;
     }
@@ -544,7 +584,7 @@
     .idb-3 {    
         left: 831px;
         top: 554px;
-    }
+    } */
 
 
   }
