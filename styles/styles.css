@@ -4,7 +4,7 @@
         position: relative;
         max-width: 768px;
         min-width: 375px;
-        margin: 0;
+        margin: 0, auto;
         display: block;
         height: auto;
         font-family: 'Nanito Sans', Arial, Helvetica, sans-serif;
@@ -375,6 +375,10 @@
         width: 100%;
     }
 
+    .wildest-fantasies {
+        height: 100px;
+    }
+
     .btn {
         position: relative;
         top: 107px;
@@ -571,8 +575,8 @@
     }
 
     .title3 {
-        position: absolute;
-        margin-top: -203px;
+        position: relative;
+        top: -203px;
         margin-left: auto;
         margin-right: auto;
         justify-content: center;
@@ -587,13 +591,12 @@
         background-image: url(../images/mobile-projects/mobile-background-fantasies.jpg);
         margin-left: auto;
         margin-right: auto;
-        position: absolute;
-        top: -122px;
-        left: 18px;
+        position: relative;
+        top: -380px;
     }
     .questions {
         position: relative;
-        top: 120px;
+        /* top: 120px; */
     }
 
   .content > h3 {
@@ -655,7 +658,7 @@
         position: relative;
         left: 0;
         top: 210px;
-        margin: 0;
+        /* margin: 0; */
         margin-top: 10px;
         margin-bottom: 10px;
         display: flex;
@@ -667,14 +670,14 @@
         margin-left: auto;
         margin-right: auto;
         padding: 0;
-        left: 18px;
+        /* left: 18px; */
     }
 
 
 
     .map {
         position: relative;
-        /* top: 180px; */
+        top: -120px;
         width: 340px;
         height: 260px;
         background-image: linear-gradient(rgba(196, 196, 196, 0.3), rgba(196, 196,196, 0.3)), url(../images/map.svg);
@@ -689,7 +692,7 @@
 
     .our-contacts {
         position: relative;
-        top: 330px;
+        top: 340px;
     }
 
     .our-contacts-content {
@@ -704,7 +707,7 @@
         width: 340px;
         height: 71px;
         position: relative;
-        top: 400px;
+        top: 290px;
         font-family: 'Yeseva One';
         font-style: 'Regular';
         font-weight: 400;
@@ -722,7 +725,7 @@
 
     .logos {
         position: relative;
-        top: 420px;
+        top: 310px;
         text-align: center;
         
     }
@@ -756,13 +759,21 @@
 
 @media (min-width: 768px) and (max-width: 1300px) {
 
+
+
+
         html, body {
             position: relative;
             max-width: 1300px;
-            margin: 0;
+            margin: 0, auto;
             display: block;
             height: auto;
             font-family: 'Nanito Sans', Arial, Helvetica, sans-serif;
+        }
+
+
+        html {
+            width: 1440px;
         }
 
         .conteiner {
@@ -1779,10 +1790,149 @@
 
 
 
-@media (min-width: 1440px) {
+@media (min-width: 1440px) and (max-width: 2500px) {
+    html, body {
+        position: relative;
+        max-width: 2500px;
+        min-width: 1301px;
+        margin: 0;
+        display: block;
+        height: auto;
+        font-family: 'Nanito Sans', Arial, Helvetica, sans-serif;
+    }
 
+    .main {
+        margin-top: -70px;
+    }
 
+    .header {
+        position: relative;
+        height: 83px;
+        background: #131313;
+        font-family: "Nanito Sans", "Arial";
+        font-size: 11px;
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+    }
 
+    .header_text {
+        display: inline-block;
+        color: #E3B873;
+        width: auto;
+        height: 10px;
+        margin-left: 20px;
+        display: inline-block;
+        font-family: "Nanito Sans", "Arial";
+        Font-size: 11px;
+        height: 10px;
+        top: 13px;
+        bottom: 14px;
+        text-align: center;
+        padding-top: 12px;
+    }
 
+    footer {
+        display: none;
+    }
     
+    .header_content {
+        width: auto;
+        position: relative;
+        top: 24px;
+        bottom: 14px;
+        width: 100%;
+        height: 10px;
+        display: flex;
+        text-align: center;
+        justify-content:space-around;
+        color:#E3B873;
+    }
+    #ht-2 {
+        color: #FFFFFF;
+    } 
+
+    .nav, .button_01{
+        display: none;
+    }
+
+    section.main_block1 {
+        background-image:linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)), url(../images/backgrounds/background-01.png);
+        background-size: 900px;
+        width:100%;
+        height: 400px;
+        margin-top: 0;
+        position: absolute;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .title1 {
+        width: 100%;
+        height: 60px;
+        position: relative;
+        top: 85px;
+        /* left: 18px; */
+        font-family: "Yeseva One", Arial, Helvetica, sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 23px;
+        text-transform: uppercase;    
+        color: rgba(255, 255, 255, 1) ;
+        line-height: 53.13px;
+        text-align: left;
+        margin-left: 18px;
+        margin-right: 18px;
+    }
+
+    .paragraph1 { 
+        position: relative;
+        display: inline-block;
+        width: 339px;
+        top: 130px;
+        left: 14px;
+        margin: 0;
+        color: #FFFFFF;
+        /* top: 161px; */
+        Font-family: 'Yeseva One';
+        Font-style: 'Regular';
+        Font-size: 14px;
+        Line-height: 19px;
+        Line-height: 135%;
+        text-align: left;
+        vertical-align: top;
+    }
+    .RoD {
+        color: rgba(227, 184, 115, 1);
+    }
+
+    .button {
+        height: 51px;
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 2px;
+        color: #FFFFFF;
+        position: relative;
+        top: 287px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        align-content: center;
+        justify-content: center;
+        margin-top: 41px;
+        border-radius: 2px;
+        margin-top: 30px;
+    }
+
+    #btn_02 {
+        background: #E3B873;
+    }
+
+    #btn_03 {
+        background-color: rgba(0, 0, 0, 0.7);
+        opacity: 0.7;
+    }
+
+
 }
