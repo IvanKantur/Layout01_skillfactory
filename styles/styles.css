@@ -66,8 +66,8 @@
     }
 
     section.main_block1 {
-        background-image:linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)), url(https://s3-alpha-sig.figma.com/img/b08d/1b80/1322e77c0316c416f2e0373bae5eafc5?Expires=1665360000&Signature=LaYMwv-qJRrgkID68SKWY24uXsCW9ioBZfLGVY0lL9Ylm5phjHr8rqBJLWMf07pQ8Oc0LVBH889etlE4c2mqD2H7k689aIz6Hg9GQdbLBlbaCG8gpkJ3m8e-dY6GNV~I4EuPgIZEl9QxMxMaGWKjI4O9fYannKuyGJWxo8u6ZVPpwT~vbrEoRFzns7lqwQcfGeaZtkRhzXHdyj1vDHPdAOwbV3edtaVFV0L3K9G04hNxDg1eYzRTIMoLpMKgTAAfUhYn~nEqwqc6sP6ovtpnQE5puvCrMLt6TBQCGXfwUVYUvcbsFY8669OgRGvRdOtsy-BXJW7~K1J1NHafnC4MWQ__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA);
-        background-size: cover;
+        background-image:linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)), url(../images/backgrounds/background-01.png);
+        background-size: 900px;
         width:100%;
         height: 400px;
         margin-top: 0;
@@ -136,13 +136,16 @@
 
     #btn_02 {
         background: #E3B873;
-        /* top: 448px;
-        left: 134px; */
     }
 
     #btn_03 {
         background-color: rgba(0, 0, 0, 0.7);
         opacity: 0.7;
+    }
+
+    section.main_block2 {
+        background-color: #131313;
+        height: 1858px;
     }
 
     .conteiner2 {
@@ -155,8 +158,6 @@
     .group-navi, .repairs  {
         display: none;
     }
-
-
 
     .completed_projects {
         position: relative;
@@ -184,7 +185,7 @@
     }
 
     p {
-        color: #FFFFFF;
+        color: #FFFFFF !important ;
         Font-family: 'Nanito Sans';
         Font-style: 'Regular';
         Font-size: 11px;
@@ -196,15 +197,6 @@
         Top: 0px;
     }
 
-   section.main_block2 {
-    background-color: #131313;
-    height: 1858px;
-    }
-
-
-   section.main_block3 {
-        display: none;
-    }
     .title2 {
         height: 100%;
     }
@@ -280,10 +272,7 @@
         margin-left: 18px;
     }
 
-    .admiral-apartment {
-        
-    }
-
+    
     .online-control {
         width: 100%;
         height: 40px;
@@ -331,9 +320,8 @@
             height: 207px;
             width: 340px;
             position: relative;
-            /* left: 204px; */
             top: 150px;
-            background-image:linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('https://s3-alpha-sig.figma.com/img/a3b1/9590/678323f00e3c71996966a7a31e9e3065?Expires=1665360000&Signature=PalMiiwaKRNiaaPIv67JzIP7l1Jpw~MtUi5X-CwxoNsDtuX9Pzjk5PGhpfz8Rk6FtM1EiL73aI2BZyvQzAzxMm1BSx6GwQtcGhr8DYo9fpDvkI9F8xY25tD35Po-gk13tJHMMLukzzxFR5wDo~Ar87Tz6xQpukHU0~VjBX2rK5EgDX~unUgC3pqcyl0~nTqSkWUzGv17h8YnKkz5Ng3SXfk0WaQQc3U-emuGoOM7j65TCo-KqzNcfIPBT6-LYI5CKxLNDD8R2e79Gy6WY2Xzf6ly6lwStveXxD9hH63xYE-Ml-lv9F7Lh6Chpi5HhLwamgxRNwDZzcSmBOQjhIE9Gw__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA');
+            background-image:linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('../images/backgrounds/background-03.png');
             background-size: cover;
             margin-left: auto;
             margin-right: auto;
@@ -491,7 +479,6 @@
         left: 0;
         margin-left: auto;
         margin-right: auto;
-
     }
 
     .rep {
@@ -504,7 +491,6 @@
         margin-left: auto;
         margin-right: auto;
         margin-bottom: 220px;
-        
     }
 
     #rep1 {
@@ -572,32 +558,207 @@
         box-shadow: 5px 5px 10px 0 rgba(227, 184, 115, 0.3);
         border-color: rgba(227, 184, 115, 1);
     }
+    
+    .measurment, .list-01, .our-clients, .fantasies-img {
+        display:none;
+    }
 
-    /* .idb-1 {
+    section.main_block3 {
+        background-color:rgba(19, 19, 19, 1);
         position: relative;
-        left: 31px;
-        top: 554px;
+        top: 1370px;
+        height: 1230px;
     }
 
-    .idb-2 {
-        top: 554px;
-        left: 431px;
+    .title3 {
+        position: absolute;
+        margin-top: -203px;
+        margin-left: auto;
+        margin-right: auto;
+        justify-content: center;
+        height: 242px;
+        width: 340px;
+        left: 18px;
     }
 
-    .idb-3 {    
-        left: 831px;
-        top: 554px;
-    } */
+    .img-for-mobile {
+        width: 340px;
+        height: 241px;
+        background-image: url(../images/mobile-projects/mobile-background-fantasies.jpg);
+        margin-left: auto;
+        margin-right: auto;
+        position: absolute;
+        top: -122px;
+        left: 18px;
+    }
+    .questions {
+        position: relative;
+        top: 120px;
+    }
 
-
+  .content > h3 {
+    font-family: "Yeseva One";
+    font-style: 'Regular';
+    font-size: 20px;
+    text-transform: uppercase;    
+    color: #FFFFFF;
+    line-height: 27.72px;
+    line-height: 120%;
+    text-align: center;
   }
+
+  .inner {
+    position: relative;
+    top: 46px;
+    height: 304px;
+    width: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    color: rgba(255, 255, 255, 0.5);
+    /* background-color: #959595; */
+    }
+
+    .questions-forms {
+        /* justify-content: space-between; */
+        width: 100%;
+        height: 45px;
+    }
+
+
+
+    .form-question {
+        position: relative;
+        top: 200px;
+        height: 45px;
+        /* width: 95%; */
+    }
+
+    .form-question > input, #form > input{
+        width: 95%;
+    }
+
+    .form1, .form2, .form-question {
+        margin-left: 2%;
+        margin-right: 2%; 
+        margin-top: 80px;
+    }
+
+    .questions-forms{
+        position: relative;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .inner  .first-checkbox {
+        text-align: center;
+        position: relative;
+        left: 0;
+        top: 210px;
+        margin: 0;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    #btn {
+        top: 67px;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 0;
+        left: 18px;
+    }
+
+
+
+    .map {
+        position: relative;
+        /* top: 180px; */
+        width: 340px;
+        height: 260px;
+        background-image: linear-gradient(rgba(196, 196, 196, 0.3), rgba(196, 196,196, 0.3)), url(../images/map.svg);
+        background-size: cover;
+        margin: auto;
+        /* left: 18px; */
+        justify-content: center;
+
+    }
+
+
+
+    .our-contacts {
+        position: relative;
+        top: 330px;
+    }
+
+    .our-contacts-content {
+        width: auto;
+        position: relative;
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+
+    .our-contacts h3 {
+        width: 340px;
+        height: 71px;
+        position: relative;
+        top: 400px;
+        font-family: 'Yeseva One';
+        font-style: 'Regular';
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 25px;
+        line-height: 138.6%;
+        text-transform: uppercase;
+        text-align: left;
+        color: #E3B873;
+        margin-left: 18px;
+        text-align: center;
+        margin: auto
+
+    }
+
+    .logos {
+        position: relative;
+        top: 420px;
+        text-align: center;
+        
+    }
+
+    .logos img {
+        margin-right: 10px;
+    }
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @media (min-width: 768px) and (max-width: 1300px) {
 
         html, body {
             position: relative;
             max-width: 1300px;
-            /* width: 1300px; */
             margin: 0;
             display: block;
             height: auto;
@@ -663,9 +824,7 @@
             display: flex;
             text-align: center;
             justify-content: space-between;
-
         }
-
 
         .button_01 {
             color: #E3B873;
@@ -686,7 +845,6 @@
             position: absolute;
             margin-top: 41px;
             border-radius: 2px;
-            
         }
 
         #btn_02 {
@@ -719,14 +877,11 @@
         }
 
         section.main_block1 {
-            /* background: rgba(0, 0, 0, 0.7); */
-            background-image:linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)), url(https://s3-alpha-sig.figma.com/img/b08d/1b80/1322e77c0316c416f2e0373bae5eafc5?Expires=1665360000&Signature=LaYMwv-qJRrgkID68SKWY24uXsCW9ioBZfLGVY0lL9Ylm5phjHr8rqBJLWMf07pQ8Oc0LVBH889etlE4c2mqD2H7k689aIz6Hg9GQdbLBlbaCG8gpkJ3m8e-dY6GNV~I4EuPgIZEl9QxMxMaGWKjI4O9fYannKuyGJWxo8u6ZVPpwT~vbrEoRFzns7lqwQcfGeaZtkRhzXHdyj1vDHPdAOwbV3edtaVFV0L3K9G04hNxDg1eYzRTIMoLpMKgTAAfUhYn~nEqwqc6sP6ovtpnQE5puvCrMLt6TBQCGXfwUVYUvcbsFY8669OgRGvRdOtsy-BXJW7~K1J1NHafnC4MWQ__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA);
+            background-image:linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)), url(../images/backgrounds/background-01.png);
             background-size: cover;
             max-width: 1300px;
             height: 707px;
             position: relative;
-            /* left: 0;
-            top: 0; */
             justify-content: center;
             }
 
@@ -866,7 +1021,7 @@
 
         }
 
-        .value {
+        .values {
             position: absolute;
             margin-top: 50px;
             text-transform: uppercase;
@@ -938,7 +1093,7 @@
             left: 0px;
             width: 540px;
             height: 383px;
-            background-image: url(https://s3-alpha-sig.figma.com/img/84d2/4980/7f2a0f3b4ed9cd6671fa4e811b625992?Expires=1665360000&Signature=O-1tHbyRgAeZ9l1nUQ0hpyI3iRdh5ZUUluUtWM~06Btnk3WmVF5h9wpZcOXlxXb8HtHZ6y9VlFAZExjWIJ2pdiMHIRJkWvaQC~Goh5smDWQnx5vJs4gq42qIibn3jga7OSVt2nKpx6cdCRbOfake2xGSuKLxoEZp~QaieoOop1nFW5wP0MfzJbhplBDqASBhz7AZ3dc0zV5xlGDLvG0lmnpc-Ls0m-bNJOgYJXmMMAfVWOUuggXZplQD2ma3BbKbX-AHdMvUgjJNJAnpblnlfFFaphk16TCM-ILsxlgk5I4gDjzojL4ySeIPUB19O6X43UbP0GZIJbq6FuuxGF6dvA__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA);
+            background-image: url(../images/backgrounds/background-02.png);
             background-size: cover;
         }
 
@@ -982,7 +1137,7 @@
             position: absolute;
             left: 241.5px;
             top: 848px;
-            background-image:linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('https://s3-alpha-sig.figma.com/img/a3b1/9590/678323f00e3c71996966a7a31e9e3065?Expires=1665360000&Signature=PalMiiwaKRNiaaPIv67JzIP7l1Jpw~MtUi5X-CwxoNsDtuX9Pzjk5PGhpfz8Rk6FtM1EiL73aI2BZyvQzAzxMm1BSx6GwQtcGhr8DYo9fpDvkI9F8xY25tD35Po-gk13tJHMMLukzzxFR5wDo~Ar87Tz6xQpukHU0~VjBX2rK5EgDX~unUgC3pqcyl0~nTqSkWUzGv17h8YnKkz5Ng3SXfk0WaQQc3U-emuGoOM7j65TCo-KqzNcfIPBT6-LYI5CKxLNDD8R2e79Gy6WY2Xzf6ly6lwStveXxD9hH63xYE-Ml-lv9F7Lh6Chpi5HhLwamgxRNwDZzcSmBOQjhIE9Gw__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA');
+            background-image:linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('../images/backgrounds/background-03.png');
             background-size: cover;
             z-index: 1;
         }
@@ -1184,7 +1339,7 @@
             margin-top: 80px;
             position: relative;
             top: 124px;
-            height: 3900px;
+            height: 3800px;
         }
 
         .leave-request {
@@ -1492,6 +1647,10 @@
             margin-top: 0;
         }
 
+        .img-for-mobile {
+            display: none;
+        }
+
         .inner {
             position: relative;
             top: 46px;
@@ -1563,6 +1722,10 @@
         }
 
         .our-contacts-content h3 {
+            margin: auto;
+            margin-top: 30px;
+            margin-bottom: 30px;
+            width: 589PX;
             position: relative;
             color: rgba(227, 184, 115, 1);
         }
