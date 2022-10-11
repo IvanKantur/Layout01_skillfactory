@@ -1719,6 +1719,7 @@
             top: 250px;
             width: 1240px;
             height: 600px;
+            margin: auto;
         }
 
         .our-contacts-content h3 {
@@ -1746,10 +1747,12 @@
             background-image: linear-gradient(rgba(196, 196, 196, 0.3), rgba(196, 196,196, 0.3)), url(../images/map.svg);
             background-size: cover;
             margin: auto;
-            margin-top: 60px;
+            margin-top: 30px;
+            margin-bottom: 60px;
         }
 
         .footer {
+            margin-top: 60px;
             position: relative;
             height: 130px;
             background: #131313;
@@ -1770,10 +1773,16 @@
         .arrows {
             display: none;
         }
+}
 
 
 
 
 
-        
+@media (min-width: 1440px) {
+
+
+
+
+    
 }
