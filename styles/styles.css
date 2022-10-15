@@ -50,7 +50,7 @@
 		color: white;
 		text-transform: uppercase;
 		font-family: 'Nunito Sans';
-		font-style: italic;
+		font-style: 'italic';
 		font-weight: 400;
 		font-size: 11px;
 		line-height: 15px;
@@ -73,7 +73,7 @@
 		color: white;
 		text-transform: uppercase;
 		font-family: 'Nunito Sans';
-		font-style: italic;
+		font-style: 'italic';
 		font-weight: 400;
 		font-size: 11px;
 		line-height: 15px;
@@ -106,7 +106,7 @@
 	
 	.logo {
 		font-family: 'Nunito Sans';
-		font-style: normal;
+		font-style: 'regular';
 		font-weight: 400;
 		font-size: 11px;
 		line-height: 15px;
@@ -133,7 +133,7 @@
 		text-decoration: none;
 		color: white;
 		font-family: 'Nunito Sans';
-		font-style: normal;
+		font-style: 'regular';
 		font-weight: 400;
 		font-size: 11px;
 		line-height: 15px;
@@ -165,8 +165,8 @@
 	}
 	
 	.title {
-		font-family: Yeseva One; 
-		font-style: normal;
+		font-family: 'Yeseva One'; 
+		font-style: 'regular';
 		font-weight: 400;
 		font-size: 23px;
 		line-height: 30px;
@@ -176,8 +176,8 @@
 	}
 	
 	.text {
-		font-family: Nunito Sans;
-		font-style: normal;
+		font-family: 'Nunito Sans';
+		font-style: 'regular';
 		font-weight: 400;
 		font-size: 14px;
 		line-height: 19px;
@@ -233,7 +233,6 @@
 		letter-spacing: -0.07em;
 		text-transform: uppercase;
 		color: #E3B873;
-		/* margin-top: 69px; */
 		display: block;
 		width: 253px;
 		height: 66px;
@@ -297,9 +296,7 @@ h2 {
 		font-size: 11px;
 		line-height: 17px;
 		color: #FFFFFF;
-		/* margin-top: 102px; */
 		text-align: center;
-		/* margin: 0 auto; */
 	}
 	
 	.group-navi {
@@ -365,14 +362,10 @@ h2 {
 	.control-vector {
 		display: inline-block;
 		top: 28px;
-		vertical-align: middle;
-		justify-content: center;    
 		text-align: center;
 		height: 29px;
 		width: 100%;
 		margin-top: 28px;
-		/* margin-left: 45%;
-		margin-right: 45%; */
 	}
 
 	.control-vector img {
@@ -389,7 +382,6 @@ h2 {
 		height: 207px;
 		width: 340px;
 		position: relative;
-		/* left: 20%; */
 		margin: 0 auto;
 		top: 20px;
 		background-image:linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('../images/backgrounds/background-03.png');
@@ -430,17 +422,13 @@ h2 {
 	.description .p3 {
 		width: 340px;
 		height: 106px;
-		/* position: relative; */
 		color: #FFFFFF;
 		text-transform: none;
 		Font-family: 'Nunito Sans';
 		font-style: 'Regular';
 		Font-size: 11px;
 		Line-height: 18px;
-		Line-height: 170%;
 		text-align: center;
-		/* vertical-align: top; */
-		/* margin-top: 35px; */
 	}
 
 	.inputs {
@@ -449,7 +437,6 @@ h2 {
 		left: 0;
 		display: flex;
 		flex-direction: column;
-		/* height: 45px; */
 	}
 	
 	.btn {
@@ -497,23 +484,26 @@ h2 {
 	.label {
 		cursor: pointer;
 	}
+	
 	.checkbox{
 		display: none;
 	}
+
 	.fake{
 		display: inline-flex;
 		width: 20px;
 		height: 20px;
-		border-radius: 50%;
 		background: #E3B873;
 		color: #FFFFFF;
 		justify-content: center;
 	}
+
 	.fake::before{
 		content:"\2714";
 		opacity: 0;
 		transition: .2s;
 	}
+
 	.checkbox:checked + .fake::before{
 		opacity: 1;
 	}
@@ -681,7 +671,6 @@ h2 {
 		text-transform: uppercase;    
 		color: rgba(227, 184, 115, 1);
 		line-height: 30px;
-		line-height: 138%;
 		text-align: center;
 		position: relative;
 		top: 30px;
@@ -690,7 +679,7 @@ h2 {
 
 	.area-and-timing {
 		position: absolute;
-		left: o;
+		left: 15px;
 		top: 401px;
 		background-color: #E3B873;
 		display: flex;
@@ -722,7 +711,6 @@ h2 {
 		top: -148px;
 		margin-left: auto;
 		margin-right: auto;
-		/* height: 445px; */
 		width: 375px;
 		background-color: rgba(24, 24, 24, 1);
 		display: flex;
@@ -733,7 +721,6 @@ h2 {
 		height: 100px;
 		width: 375px;
 		margin: auto;
-		/* background-color: aqua; */
 	}
 
 	.content > h3 {
@@ -758,7 +745,6 @@ h2 {
 		display: flex;
 		flex-direction: column;
 		color: rgba(255, 255, 255, 0.5);
-		/* background-color: #959595; */
 	}
 
 	.questions-forms  #form {
@@ -906,7 +892,7 @@ font-family: "Yeseva One", cursive;
 
 body {
 	margin: 0;
-	font-family: Nunito Sans;
+	font-family: 'Nunito Sans';
 	box-sizing: border-box;
 }
 
@@ -935,7 +921,7 @@ body {
     color: white;
     text-transform: uppercase;
     font-family: 'Nunito Sans';
-    font-style: italic;
+    font-style: 'italic';
     font-weight: 400;
     font-size: 11px;
     line-height: 15px;
@@ -957,7 +943,7 @@ body {
     color: white;
     text-transform: uppercase;
     font-family: 'Nunito Sans';
-    font-style: italic;
+    font-style: 'italic';
     font-weight: 400;
     font-size: 11px;
     line-height: 15px;
@@ -989,7 +975,7 @@ body {
 
 .logo {
 	font-family: 'Nunito Sans';
-    font-style: normal;
+    font-style: 'regular';
     font-weight: 400;
     font-size: 11px;
     line-height: 15px;
@@ -1016,7 +1002,7 @@ body {
 	text-decoration: none;
 	color: white;
 	font-family: 'Nunito Sans';
-    font-style: normal;
+    font-style: 'regular';
     font-weight: 400;
     font-size: 11px;
     line-height: 15px;
@@ -1046,8 +1032,8 @@ body {
 }
 
 .title {
-	font-family: Yeseva One; 
-	font-style: normal;
+	font-family: 'Yeseva One'; 
+	font-style: 'regular';
 	font-weight: 400;
 	font-size: 40px;
 	line-height: 53px;
@@ -1058,8 +1044,8 @@ body {
 }
 
 .text {
-	font-family: Nunito Sans;
-	font-style: normal;
+	font-family: 'Nunito Sans';
+	font-style: 'regular';
 	font-weight: 400;
 	font-size: 22px;
 	line-height: 36px;
@@ -1119,7 +1105,6 @@ body {
 	left: 0;
 	width: 442px;
 	height: 390px;
-	/* margin-right: 50px; */
 }
 
 .completed_projects {
@@ -1137,7 +1122,7 @@ body {
 	width: 442px;
 	height: 86px;
 	font-family: 'Nunito Sans';
-	font-style: normal;
+	font-style: 'regular';
 	font-weight: 400;
 	font-size: 14px;
 	line-height: 26.73px;
@@ -1151,7 +1136,6 @@ h2 {
 	position:relative;
 	font-family: 'Yeseva One';
 	font-style: 'Regular';
-	font-style: 'normal';
 	font-weight: 400;
 	font-size: 18px;
 	line-height: 25px;
@@ -1166,7 +1150,7 @@ h2 {
 	text-transform: uppercase;
 	color: #FFFFFF;
 	font-family: 'Nunito Sans';
-	font-style: normal;
+	font-style: 'Regular';
 	font-weight: 400;
 	font-size: 13px;
 	line-height: 21.28px;
@@ -1192,7 +1176,6 @@ h2 {
 	width: 623px;
 	height: auto;
 	flex-direction: row;
-	/* margin-left: 50px; */
 }
 
 .objects_adresses {
@@ -1216,12 +1199,10 @@ h2 {
 	font-family: 'Yeseva One';
 	font-weight: 400;
 	font-size: 14px;
-	line-height: 19px;
 	line-height: 120%;
 	text-align: left;
 	vertical-align: top;
 	text-transform: uppercase;
-	color: rgba(251, 251, 251, 1);
 	color: #E3B873;
 }
 
@@ -1251,9 +1232,9 @@ h2 {
 
 .online-control h3 {
 	margin-top: 90px;
-	position:relative;
+	position: relative;
 	font-family: 'Yeseva One';
-	font-style: normal;
+	font-style: 'Regular';
 	font-weight: 400;
 	font-size: 18px;
 	line-height: 25px;
@@ -1376,23 +1357,26 @@ h2 {
 .label {
 	cursor: pointer;
 }
+
 .checkbox{
 	display: none;
 }
+
 .fake{
 	display: inline-flex;
 	width: 20px;
 	height: 20px;
-	border-radius: 50%;
 	background: #E3B873;
 	color: #FFFFFF;
 	justify-content: center;
 }
+
 .fake::before{
 	content:"\2714";
 	opacity: 0;
 	transition: .2s;
 }
+
 .checkbox:checked + .fake::before{
 	opacity: 1;
 }
@@ -1400,8 +1384,6 @@ h2 {
 #text {
 	color: rgba(24, 24, 24, 1);
 }
-
-
 
 .tor {
 	position: relative;
@@ -1458,16 +1440,13 @@ h2 {
 	height: 54px;
 	width: 228px;
 	background-color: rgba(227, 184, 115, 1);
-	font-family: Yeseva One;
+	font-family: 'Yeseva One';
 	font-style: 'Regular';
 	font-size: 18px;
 	font-weight: 400;
 	line-height: 25px;
 	letter-spacing: 0em;
-	text-align: left;
 	color: rgba(255, 255, 255, 1);
-	Line-height: 24.95px;
-	Line-height: 120%;
 	text-align: center;
 	vertical-align: Top;
 	text-transform: uppercase;
@@ -1562,7 +1541,6 @@ section.main_block3 {
 	font-style: 'Regular';
 	font-size: 18px;
 	line-height: 25.78px;
-	line-height: 105%;
 	text-align: left;
 	color: #E3B873;
 }
@@ -1582,7 +1560,6 @@ section.main_block3 {
 }
 
 .wildest-fantasies {
-	
     position: relative;
     margin: 0 auto;
     width: 1300px;
@@ -1596,7 +1573,6 @@ section.main_block3 {
 	text-transform: uppercase;    
 	color: rgba(227, 184, 115, 1);
 	line-height: 37.42px;
-	line-height: 120%;
 	text-align: left;
 	position: relative;
 	top: 137px;
@@ -1615,7 +1591,6 @@ section.main_block3 {
 	font-style: 'Regular';
 	font-size: 20px;
 	line-height: 38.19px;
-	line-height: 140%;
 	text-align: left;
 }
 
@@ -1627,38 +1602,29 @@ section.main_block3 {
 	border-radius: 0px;
 	object-fit: cover;
 	position:absolute;
-
 }
 
 #fantasies-img1 {
 	height: 557.8831787109375px;
 	width: 334px;
-	/* left: 588px;
-	top: 879.37744140625px; */
 	left: 465px;
 	top: -41px;
 }
 #fantasies-img2 {
 	height: 349.3717041015625px;
 	width: 334px;
-	/* left: 588px;
-	top: 1476.364990234375px; */
 	left: 465px;
 	top: 555px;
 }
 #fantasies-img3 {
 	height: 275px;
 	width: 334px;
-	/* left: 985px;
-	top: 808px; */
 	left: 865px;
 	top: -112.5px;
 }
 #fantasies-img4 {
 	height: 624.8848266601562px;
 	width: 334px;
-	/* left: 985px;
-	top: 1120px; */
 	left: 865px;
 	top: 199.5px;
 }
@@ -1735,7 +1701,6 @@ section.main_block3 {
 	font-style: 'Regular';
 	font-size: 18px;
 	line-height: 22.87px;
-	Line-height: 110%;
 	text-align: left;
 	vertical-align: top;
 	color: #181818;
@@ -1752,11 +1717,9 @@ section.main_block3 {
 	font-style: 'Regular';
 	font-size: 13px;
 	line-height: 23.4px;
-	line-height: 180%;
 	text-align: left;
 	line-height-step: 5px;
 	color:#959595;
-	
 }
 
 .area-and-timing {
@@ -1777,7 +1740,6 @@ section.main_block3 {
 	font-style: 'Regular';
 	font-size: 17px;
 	line-height: 23.56px;
-	line-height: 120%;
 	text-align: Left;
 	vertical-align: middle;
 	color: #FFFFFF;
@@ -1804,7 +1766,6 @@ section.main_block3 {
 	height: 376px;
 	width: 720px;
 	margin: auto;
-	/* background-color: aqua; */
 }
 
 .content > h3 {
@@ -1815,7 +1776,6 @@ section.main_block3 {
 	text-transform: uppercase;    
 	color:#FFFFFF;
 	line-height: 37.42px;
-	line-height: 120%;
 	text-align: center;
 	justify-content: center;
 	margin-top: 0;
@@ -1834,7 +1794,6 @@ section.main_block3 {
 	display: flex;
 	flex-direction: column;
 	color: rgba(255, 255, 255, 0.5);
-	/* background-color: #959595; */
 }
 
 .questions-forms  #form {
@@ -1852,12 +1811,10 @@ section.main_block3 {
 
 .form-question > input {
 	width: 99%;
-
 }
 
 #form > input {
 	width: 84%;
-
 }
 
 .questions-forms{
