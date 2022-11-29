@@ -61,22 +61,25 @@
                                 <p class="values" id="value-4" style="position: absolute; top: 107px; left: 190px"class="p3">Upon request</p>
                             </div>
                             <div class="group-navi">
-                                <img src="./images/Left.svg " style="margin-right: 29px;" alt="left arrow">
-                                <img src="./images/Rectangle 7.4.svg" style="margin-right: 17.5px;" alt="Rectangle 7.4">
+                                <img src="./images/Left.svg " class="arrows-l" id="left-arrow" alt="left arrow">
+                                <div class="dots checked-dot" id="dot1" ></div>
+                                <div class="dots" id="dot2" ></div>
+                                <div class="dots" id="dot3" ></div>
+                                <!-- <img src="./images/Rectangle 7.4.svg" style="margin-right: 17.5px;" alt="Rectangle 7.4">
                                 <img src="./images/Rectangle 7.3.svg" style="margin-right: 17.5px;" alt="Rectangle 7.3">
-                                <img src="./images/Rectangle 7.2.svg" style="margin-right: 29px;" alt="Rectangle 7.2">
-                                <img src="./images/Right.svg" alt="right arrow ">
+                                <img src="./images/Rectangle 7.2.svg" style="margin-right: 29px;" alt="Rectangle 7.2"> -->
+                                <img src="./images/Right.svg" class="arrows-l" id="right-arrow" alt="right arrow ">
                             </div>
                         </div>
                     </div>
                     <div class="right_side">
                         <ul class="objects_adresses">
-                            <li style="text-decoration:underline;">Rostov-on-Don, Admiral</li>
-                            <li style="color: rgba(255, 255, 255, 0.3);">Sochi Thieves</li>
-                            <li style="color: rgba(255, 255, 255, 0.3);">Rostov-on-Don, Patriotic</li>
+                            <li class="object-list checked-apartment" id="first">Rostov-on-Don, Admiral</li>
+                            <li class="object-list" id="second">Sochi Thieves</li>
+                            <li class="object-list" id="third">Rostov-on-Don, Patriotic</li>
                         </ul>
                         
-                        <div class="admiral-apartment">
+                        <div class="admiral-apartment" id="admiral-apartment" >
                             <div class="arrows">
                                 <img id="arrow-1" class="arrows-svg" src="./images/mobile-projects/left-arrow.svg" alt="left-arrow">
                                 <img id="arrow-2" class="arrows-svg" src="./images/mobile-projects/right-arrow.svg" alt="right-arrow">
@@ -337,5 +340,6 @@
 		</div>
         
     </footer>
+    <script src="./main.js"></script>
 </body>
 </html>
