@@ -58,6 +58,9 @@ rightArrowMobile.addEventListener("click", () => {
     const dots = [dot1, dot2, dot3];
     const apartments = [firstApartment, secondApartment, thirdApartment];
     let indexDots = 0;
+    const vol1 = document.getElementById("value1");
+    const vol2 = document.getElementById("value2");
+    const vol3 = document.getElementById("value3");
 
 
 
@@ -67,18 +70,21 @@ rightArrowMobile.addEventListener("click", () => {
         // firstApartment.style.textColor = "#E3B873";
         firstApartmentChecked ();
         firstDotChecked();
+        changeValuesOfRepair1 ();
     });
 
     dot2.addEventListener("click", () => {
         admiralApartment.style.backgroundImage = "url('https://s3-alpha-sig.figma.com/img/2b61/d91d/0d504ae5ddf821a6b6600ee9bd6d98fa?Expires=1670803200&Signature=Vxtq6BMcYfnufXVLNCKgQmgAJRMvNZ8CGOCz09caDOHIJZ5SWMjuNGvyAhW3vxOLSqt7pjyos00I1hUF9S9SHoByVnfiNl0mCphy2QLeBgoK3~f0ncuX2vngytEnnuTvJY50MzvyAnhT7S9JDHvggLwOj0pYYgCMX~CeuGn-YQVJX6zxoCErsRa24N7spaSTM1c5uS7uY-MpFnDGfrw6Z3lDTXU8dw~feoprcDMxDGNetYb7CMosxORr7XBjjUyXZm2fsGSY9iwowwks4YVCXHG60O8PJITnmXk6L5TCXuK-88DOaHrb6dIXcpGXE61cNsBJqax~E1ydWdsbVMprMw__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA')";
         secondApartmentChecked ();
         secondDotChecked();
+        changeValuesOfRepair2 ();
     });
 
     dot3.addEventListener("click", () => {
         admiralApartment.style.backgroundImage = "url('https://s3-alpha-sig.figma.com/img/2882/358d/e0332eab0ee26bbd0cebfe5592a469dc?Expires=1670803200&Signature=YvenqetHNck1Y47gLx2BdJhq0P3Od2LzkmoWfH68Xme0OEo3kD--juR7u4-jdFWSSpU77HP5z397PLLITrDpb4rhckf5VkO4QM7nwFzllTdt68meF1RyvpUd8YuURznE5Rak1Je~IUIEn1ZKhtfCbO52WN0sbD1haAOJ7VAiMSan83LOwKC4bIi5jB4mnjjbvaDh-rCZoLEXDK5wxR4AmaRMfyYhUyluiI5xljowx1-81LOstEFyfMCTz7O~2pRMg6Rqf9NGJD5mVA3pOEKcT-sSaJuK4XUS9Ef8TkdBQBOMtn0ZG8mNCq9wBOntvgI0wU0O~6JjL4lvHKm3GjpX~w__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA')";
         thirdApartmentChecked ();
         thirdDotChecked();
+        changeValuesOfRepair3 ();
     });
 
 
@@ -88,18 +94,21 @@ rightArrowMobile.addEventListener("click", () => {
         // firstApartment.style.textColor = "#E3B873";
         firstApartmentChecked ();
         firstDotChecked();
+        changeValuesOfRepair1 ();
     });
     
     secondApartment.addEventListener("click", () => {
         admiralApartment.style.backgroundImage = "url('https://s3-alpha-sig.figma.com/img/2b61/d91d/0d504ae5ddf821a6b6600ee9bd6d98fa?Expires=1670803200&Signature=Vxtq6BMcYfnufXVLNCKgQmgAJRMvNZ8CGOCz09caDOHIJZ5SWMjuNGvyAhW3vxOLSqt7pjyos00I1hUF9S9SHoByVnfiNl0mCphy2QLeBgoK3~f0ncuX2vngytEnnuTvJY50MzvyAnhT7S9JDHvggLwOj0pYYgCMX~CeuGn-YQVJX6zxoCErsRa24N7spaSTM1c5uS7uY-MpFnDGfrw6Z3lDTXU8dw~feoprcDMxDGNetYb7CMosxORr7XBjjUyXZm2fsGSY9iwowwks4YVCXHG60O8PJITnmXk6L5TCXuK-88DOaHrb6dIXcpGXE61cNsBJqax~E1ydWdsbVMprMw__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA')";
         secondApartmentChecked ();
         secondDotChecked();
+        changeValuesOfRepair2 ();
     });
     
     thirdApartment.addEventListener("click", () => {
         admiralApartment.style.backgroundImage = "url('https://s3-alpha-sig.figma.com/img/2882/358d/e0332eab0ee26bbd0cebfe5592a469dc?Expires=1670803200&Signature=YvenqetHNck1Y47gLx2BdJhq0P3Od2LzkmoWfH68Xme0OEo3kD--juR7u4-jdFWSSpU77HP5z397PLLITrDpb4rhckf5VkO4QM7nwFzllTdt68meF1RyvpUd8YuURznE5Rak1Je~IUIEn1ZKhtfCbO52WN0sbD1haAOJ7VAiMSan83LOwKC4bIi5jB4mnjjbvaDh-rCZoLEXDK5wxR4AmaRMfyYhUyluiI5xljowx1-81LOstEFyfMCTz7O~2pRMg6Rqf9NGJD5mVA3pOEKcT-sSaJuK4XUS9Ef8TkdBQBOMtn0ZG8mNCq9wBOntvgI0wU0O~6JjL4lvHKm3GjpX~w__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA')";
         thirdApartmentChecked ();
         thirdDotChecked();
+        changeValuesOfRepair3 ();
     });
 
 
@@ -143,6 +152,7 @@ rightArrowMobile.addEventListener("click", () => {
                 index = indexDots;
                 admiralApartment.style.backgroundImage = `url(${images[index].url})`;
                 changeBackground();
+                
                 
             } else {
                 dots[indexDots].classList.toggle("checked-dot");
@@ -192,12 +202,15 @@ rightArrowMobile.addEventListener("click", () => {
         switch (index) {
             case 0:
                 firstApartmentChecked ();
+                changeValuesOfRepair1 ();
                 break;
             case 1:
                 secondApartmentChecked ();
+                changeValuesOfRepair2 ();
                 break;
             case 2:
                 thirdApartmentChecked ();
+                changeValuesOfRepair3 ();
                 break;
         };
     }
@@ -220,3 +233,18 @@ rightArrowMobile.addEventListener("click", () => {
         dot3.classList.add("checked-dot");
     }
 
+    function changeValuesOfRepair1 (){
+        vol1.classList.remove('none');
+        vol2.classList.add('none');
+        vol3.classList.add('none');
+    }
+    function changeValuesOfRepair2 (){
+        vol2.classList.remove('none');
+        vol1.classList.add('none');
+        vol3.classList.add('none');
+    }
+    function changeValuesOfRepair3 (){
+        vol3.classList.remove('none');
+        vol2.classList.add('none');
+        vol1.classList.add('none');
+    }

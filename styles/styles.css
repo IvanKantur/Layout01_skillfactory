@@ -220,6 +220,8 @@
 		width: 341px;
 		height: 145px;
 	}
+
+	
 	
 	.title2 {
 		position: relative;
@@ -326,6 +328,10 @@ h2 {
 		width: 36px;
 		margin: 0;
 		display: inline-flex;
+	}
+
+	.arrows-svg:hover {
+		cursor: pointer;
 	}
 		
 	.admiral-apartment {
@@ -1132,6 +1138,10 @@ body {
 
 .values-of-repair {
 	position: relative;
+}
+
+.none{
+	display: none;
 }
 
 .completed_projects > .p2 {
