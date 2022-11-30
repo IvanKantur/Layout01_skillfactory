@@ -27,6 +27,16 @@ leftArrowMobile.addEventListener("click", () => {
             admiralApartment.style.backgroundImage = `url(${images[index].url})`;
         }
         // debugger;
+    }switch (index) {
+        case 0 :
+            changeValuesOfRepair1 ();
+            break;
+        case 1 :
+            changeValuesOfRepair2 ();
+            break;
+        case 2 : 
+            changeValuesOfRepair3 ();
+            break;
     }
     return index;
 })
@@ -40,6 +50,17 @@ rightArrowMobile.addEventListener("click", () => {
             index++
             admiralApartment.style.backgroundImage = `url(${images[index].url})`;
         }       
+    }
+    switch (index) {
+        case 0 :
+            changeValuesOfRepair1 ();
+            break;
+        case 1 :
+            changeValuesOfRepair2 ();
+            break;
+        case 2 : 
+            changeValuesOfRepair3 ();
+            break;
     }
     return index;
     })
