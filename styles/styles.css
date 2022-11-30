@@ -1114,6 +1114,13 @@ body {
 	width: 10px;
 }
 
+.dots:hover{
+	cursor: pointer;
+	background-color: #E3B873;
+}
+
+
+
 .checked-dot {
 	background-color: #FFFFFF;
 }
@@ -1237,8 +1244,9 @@ h2 {
 	color: #E3B873;
 }
 
-.arrows-l:hover {
+.arrows-l:hover{
 	cursor: pointer;
+	color: #E3B873;
 }
 
 .wildest-fantasies ul {
